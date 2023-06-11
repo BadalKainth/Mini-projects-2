@@ -1,0 +1,141 @@
+.main-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  height: 90vh;
+}
+
+.main-image {
+  display: flex;
+  width: auto;
+  height: 32rem;
+}
+
+.text-area {
+  font-size: 16px;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: #e5d8ff;
+  color: black;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: -3.5rem auto 5rem auto;
+  width: 90%;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  height: 5rem;
+  font-weight: 700;
+  color: aliceblue;
+  text-align: left;
+  padding: 10px;
+  border-radius: 0.5rem;
+  line-height: 0.1rem;
+  letter-spacing: 1px;
+}
+
+.card1 {
+  background: #929dff;
+}
+
+.card2 {
+  background: #734cf2;
+}
+.card3 {
+  background: #d288ff;
+}
+.card4 {
+  background: #000000;
+}
+
+.card1 p,
+.card2 p,
+.card3 p,
+.card4 p {
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+.info-container {
+  background-color: #483eff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
+}
+
+.info-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.info-btns .active {
+  padding: 1.5rem;
+  width: 16rem;
+  border-radius: 1rem;
+  background-color: #bce0f6;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+}
+
+.info-btns button {
+  padding: 1.5rem;
+  width: 16rem;
+  border-radius: 1rem;
+  background-color: #483eff;
+  border: 2px solid white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.info-area {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  background-color: white;
+  width: 65vw;
+  color: black;
+  padding: 2rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+  line-height: 1rem;
+}
+
+.info-area button {
+  font-size: 1.5rem;
+  width: 10rem;
+  padding: 0.7rem;
+  margin: 2rem 0 0 65rem;
+  background: black;
+  border-radius: 0.4rem;
+  border: none;
+}
